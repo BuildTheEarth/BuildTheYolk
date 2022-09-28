@@ -3,8 +3,13 @@ name: Docker Publish
 on:
   push:
     branches: [ main ]
+    paths:
+      - installers/**
   pull_request:
     branches: [ main ]
+    paths:
+      - installers/**
+
 
 env:
   REGISTRY: ghcr.io
