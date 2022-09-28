@@ -28,4 +28,5 @@ LABEL       org.opencontainers.image.licenses=MIT
 
 RUN         apk add --update --no-cache ca-certificates curl git jq wget
 
+
 COPY        ./home/maximindcraft/EduPack.zip  /mnt/server/EduPack.zip
